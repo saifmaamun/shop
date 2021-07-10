@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px 10px ;
+    border-radius: 2px;
+    font-size:2em;
+    background: #F3F2F7;
+    color: darkslategray;
+}
+.logo{
+    font-weight: 900;
+
+}
+
+.icon{
+    font-weight: 100;
+    font-size: .7em;
+    color: darkslategray;
+    margin-left: 20px;
+}
+.search{
+    border-radius: 5px;
+}
+.settings #search-icon{
+    margin-left: 0;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px 10px ;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.fab{
+    color:darkslategray;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 5px;
+}
+.menu{
+    color:darkslategray;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 15px;
+}
